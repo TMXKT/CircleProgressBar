@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="cpb_is_ring" format="boolean" />
+        <attr name="cpb_circle_width" format="dimension" />  <!--进度圆环宽度-->
+        <attr name="cpb_circle_color" format="color" />      <!--圆环颜色-->
+        <attr name="cpb_circle_bg_color" format="color" />   <!--背景圆环颜色-->
+        <attr name="cpb_text_color" format="color" />        <!--文字颜色-->
+        <attr name="cpb_text_size" format="dimension" />     <!--文字大小-->
+        <attr name="cpb_text_style" format="enum">           <!--文字风格-->
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <attr name="cpb_progress" format="float" />       <!--圆环进度-->
+    </declare-styleable>
+
+</resources>
